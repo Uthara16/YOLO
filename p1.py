@@ -21,3 +21,5 @@ else:
 
     for box in results[0].boxes :
         print(f"{model.names[int(box.cls)]}-{float(box.conf):.0%}")
+
+        
